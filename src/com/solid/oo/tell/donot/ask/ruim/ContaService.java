@@ -1,4 +1,4 @@
-package com.solid.oo.tell.donot.ask.bom;
+package com.solid.oo.tell.donot.ask.ruim;
 
 public class ContaService {
 	
