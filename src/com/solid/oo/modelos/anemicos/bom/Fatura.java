@@ -1,24 +1,30 @@
-package com.solid.oo.encapsulamento.ruim;
+package com.solid.oo.modelos.anemicos.bom;
 
 import java.util.List;
 
+import com.solid.oo.modelos.anemicos.ruim.Pagamento;
+
 public class Fatura {
-	
-	private boolean paga;
+
 	private List<Pagamento> pagamentos;
-	
+
 	public boolean isPaga() {
-		return paga;
+		boolean isPaga = true;
+
+		for (Pagamento pagamento : this.pagamentos) {
+			if (!pagamento.isPago()) {
+				isPaga = false;
+				break;
+			}
+		}
+
+		return isPaga;
 	}
-	
-	public void setPaga(boolean paga) {
-		this.paga = paga;
-	}
-	
+
 	public List<Pagamento> getPagamentos() {
 		return pagamentos;
 	}
-	
+
 	public void setPagamentos(List<Pagamento> pagamentos) {
 		this.pagamentos = pagamentos;
 	}

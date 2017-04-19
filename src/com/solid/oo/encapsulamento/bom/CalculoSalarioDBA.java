@@ -1,4 +1,4 @@
-package com.solid.oo.modelos.anemicos.bom;
+package com.solid.oo.encapsulamento.bom;
 
 public class CalculoSalarioDBA implements CalculoSalario {
 	

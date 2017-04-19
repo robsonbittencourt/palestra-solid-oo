@@ -1,4 +1,4 @@
-package com.solid.oo.encapsulamento.ruim;
+package com.solid.oo.modelos.anemicos.ruim;
 
 public class FaturaService {
 	
