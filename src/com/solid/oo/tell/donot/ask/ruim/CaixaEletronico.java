@@ -1,6 +1,6 @@
 package com.solid.oo.tell.donot.ask.ruim;
 
-public class ContaService {
+public class CaixaEletronico {
 	
 	public void sacar(Conta conta, double valor) {
 		if (conta.getSaldo() >= valor) {
