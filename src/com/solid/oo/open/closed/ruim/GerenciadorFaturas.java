@@ -2,7 +2,7 @@ package com.solid.oo.open.closed.ruim;
 
 public class GerenciadorFaturas {
 	
-	private FilaContabilidade  filaContabilidade;
+	private FilaContabilidade filaContabilidade;
 	private EnviadorEmail enviadorEmail;
 	
 	public void pagarFatura(Fatura fatura) {
